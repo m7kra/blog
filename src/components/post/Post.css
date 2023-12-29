@@ -1,0 +1,91 @@
+#post-title {
+    font-weight: bold;
+    font-size: 50px !important;
+    margin-bottom: 20px !important;
+    text-shadow: 0 0 10px var(--primary);
+}
+
+#post-image {
+    border-radius: var(--border-radius);
+    width: 100%;
+    box-shadow: 0 0 10px black;
+}
+
+#post-date {
+    color: var(--on-surface-09);
+    font-weight: bold;
+    font-size: 20 !important;
+}
+
+#post h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#post h2 {
+    font-size: 40px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
+#post h3 {
+    font-size: 35px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#post h4 {
+    font-size: 30px;
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+
+#post h5 {
+    font-size: 27px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#post h6 {
+    font-size: 25px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+#post p, li, li::marker {
+    font-size: 18px;
+    color: var(--on-surface-09);
+}
+
+#post li {
+    margin-bottom: 10px;
+}
+
+#post a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#post code:not(pre code) {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: var(--on-surface);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+#post pre:not(:has(pre)) {
+    background-color: var(--surface-variant) !important;
+    padding: 20px !important;
+    border-radius: var(--border-radius);
+    font-size: 16px;
+}
+
+#post pre:has(pre) {
+    margin-bottom: 30px;
+}
+
+#post code * {
+    font-family: monospace !important;
+}

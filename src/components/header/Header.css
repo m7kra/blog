@@ -1,0 +1,19 @@
+#header-logo {
+    max-width: 30px;
+}
+
+.navbar svg {
+    color: var(--on-surface);
+}
+
+.navbar .button {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-collapse.show .button {
+        height: 30px !important;
+        width: 30px !important;
+    }    
+}

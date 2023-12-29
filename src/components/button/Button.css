@@ -1,0 +1,128 @@
+.button {
+    cursor: pointer;
+    transition: var(--transition);
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+    border-radius: var(--border-radius);
+}
+.button.box {
+    height: 55px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color1);
+    color: var(--color2);
+}
+.button.text {
+    height: 40px;
+    min-width: 100px;
+    padding: 10px;
+    line-height: 20px;
+    text-align: center;
+    background-color: var(--color1);
+    color: var(--color2);
+    display: inline-block;
+}
+.button.outline {
+    height: 40px;
+    min-width: 100px;
+    padding: 10px;
+    line-height: 20px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid var(--color1);
+    color: var(--color1);
+    display: inline-block;
+}
+
+.button.primary {
+    --color1: var(--primary);
+    --color2: var(--on-primary);
+}
+.button.primary-container {
+    --color1: var(--primary-container);
+    --color2: var(--on-primary-container);
+}
+.button.secondary {
+    --color1: var(--secondary);
+    --color2: var(--on-secondary);
+}
+.button.secondary-container {
+    --color1: var(--secondary-container);
+    --color2: var(--on-secondary-container);
+}
+.button.tertiary {
+    --color1: var(--tertiary);
+    --color2: var(--on-tertiary);
+}
+.button.tertiary-container {
+    --color1: var(--tertiary-container);
+    --color2: var(--on-tertiary-container);
+}
+.button.surface {
+    --color1: var(--surface);
+    --color2: var(--on-surface);
+}
+.button.surface-variant {
+    --color1: var(--surface-variant);
+    --color2: var(--on-surface-variant);
+}
+.button.error {
+    --color1: var(--error);
+    --color2: var(--on-error);
+}
+.button.error-container {
+    --color1: var(--error-container);
+    --color2: var(--on-error-container);
+}
+.button.darken {
+    --color1: rgba(0, 0, 0, 0.2);
+}
+.button.hover-primary:hover {
+    --color1: var(--primary);
+    --color2: var(--on-primary);
+}
+.button.hover-primary-container:hover {
+    --color1: var(--primary-container);
+    --color2: var(--on-primary-container);
+}
+.button.hover-secondary:hover {
+    --color1: var(--secondary);
+    --color2: var(--on-secondary);
+}
+.button.hover-secondary-container:hover {
+    --color1: var(--secondary-container);
+    --color2: var(--on-secondary-container);
+}
+.button.hover-tertiary:hover {
+    --color1: var(--tertiary);
+    --color2: var(--on-tertiary);
+}
+.button.hover-tertiary-container:hover {
+    --color1: var(--tertiary-container);
+    --color2: var(--on-tertiary-container);
+}
+.button.hover-surface:hover {
+    --color1: var(--surface);
+    --color2: var(--on-surface);
+}
+.button.hover-surface-variant:hover {
+    --color1: var(--surface-variant);
+    --color2: var(--on-surface-variant);
+}
+.button.hover-error:hover {
+    --color1: var(--error);
+    --color2: var(--on-error);
+}
+.button.hover-error-container:hover {
+    --color1: var(--error-container);
+    --color2: var(--on-error-container);
+}
+.button.hover-darken:hover {
+    --color1: rgba(0, 0, 0, 0.2);
+}
+.button.transparent:not(:hover) {
+    background-color: transparent;
+}

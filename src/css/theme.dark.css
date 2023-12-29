@@ -1,0 +1,35 @@
+.dark-theme, :root:has(.dark-theme) {
+    --surface: rgb(60, 60, 60);
+    --on-surface: rgb(235, 235, 235);
+    --on-surface-09: rgba(235, 235, 235, 0.9);
+
+    --surface-variant: rgb(50, 50, 50);
+    --on-surface-variant: rgb(230, 230, 230);
+    --on-surface-variant-09: rgba(230, 230, 230, 0.9);
+
+    --primary: rgb(40, 108, 147);
+    --on-primary: rgb(245, 245, 245);
+    --on-primary-09: rgba(245, 245, 245, 0.9);
+
+    --primary-container: rgb(53, 77, 92);
+    --on-primary-container: rgb(235, 235, 235);
+    --on-primary-container-09: rgba(235, 235, 235, 0.9);
+    
+    --secondary: rgb(153, 91, 192);
+    --on-secondary: rgb(245, 245, 245);
+    --on-secondary-09: rgba(245, 245, 245, 0.9);
+
+    --secondary-container: rgb(94, 71, 108);
+    --on-secondary-container: rgb(235, 235, 235);
+    --on-secondary-container-09: rgba(235, 235, 235, 0.9);
+
+    --error: rgb(233, 47, 47);
+    --on-error: rgb(235, 235, 235);
+    --on-error-09: rgba(235, 235, 235, 0.9);
+
+    --error-container: rgb(154, 53, 53);
+    --on-error-container: rgb(235, 235, 235);
+    --on-error-container-09: rgba(235, 235, 235, 0.9);
+
+    --outline: rgba(235, 235, 235, 0.5);
+}
